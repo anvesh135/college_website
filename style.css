@@ -1,0 +1,117 @@
+
+body {
+    background:white;
+    color: #101010;
+    line-height: 1.9;
+    margin: 0;
+    padding: 0;
+    font-family: "Segoe UI", Arial, sans-serif;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    background: #00246B;
+    color:#CADCFC;
+    padding: 20px 40px;
+}
+
+header .logo img {
+    height: 80px;
+    margin-right: 230px;
+}
+
+header .collagename h1 {
+    font-size: 33px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+header .collagename h2,header .collagename h3 {
+    font-size: 20px;
+    font-weight: normal;
+}
+
+
+nav {
+    background:#8AB6F9;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    position: relative;
+}
+
+nav ul li a {
+    display: block;
+    padding: 15px 30px;
+    color: white;
+    text-decoration: none;
+    transition: background 0.4s;
+}
+
+nav ul li a:hover {
+    background:#4282e1 ;
+}
+
+nav ul li ul {
+    display: none;
+    position: absolute;
+    background: #8AB6F9;
+    top: 100%;
+    left: 0;
+    min-width: 200px;
+    border-radius: 0 0 8px 8px;
+}
+
+nav ul li:hover ul {
+    display: block;
+}
+
+nav ul li ul li a {
+    padding: 12px;
+    border-bottom: 1px solid rgba(255,255,255,0.1);
+}
+
+nav ul li ul li a:hover {
+    background:#4282e1;
+}
+
+main {
+    max-width: 1000px;
+    margin: 40px auto;
+    padding: 20px;
+    background: white;
+    text-align:left;
+}
+
+main h2 {
+    font-size: 26px;
+    margin-bottom: 15px;
+    color:#00246B;
+}
+
+main h3{
+    color: #00246B;
+}
+
+footer {
+    background:#00246B;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    margin-top: 40px;
+    font-size: 14px;
+}
+
+.social-links a {
+text-decoration: none;
+margin: 0 10px;
+color: white;
+}
+
