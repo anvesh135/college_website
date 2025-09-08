@@ -86,14 +86,17 @@ main {
     max-width: 1000px;
     margin: 40px auto;
     padding: 20px;
-    background: white;
-    text-align:left;
+    background: white url("background.avif") no-repeat center ;
+    background-size: cover; 
+    text-align: left;
+    border-radius: 10px;     
 }
 
 main h2 {
     font-size: 26px;
     margin-bottom: 15px;
-    color:#00246B;
+    color: white;
+    text-shadow:black 2px 2px ;
 }
 
 main h3{
@@ -114,4 +117,10 @@ text-decoration: none;
 margin: 0 10px;
 color: white;
 }
+
+p{
+    color: white;
+    text-shadow:black 2px 2px ;
+}
+
 
