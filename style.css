@@ -11,8 +11,8 @@ body {
 header {
     display: flex;
     align-items: center;
-    background: #00246B;
-    color:#CADCFC;
+    background: #a5b9dd;
+    color:#2c3494;
     padding: 20px 40px;
 }
 
@@ -121,6 +121,7 @@ p{
     color: white;
     text-shadow:black 2px 2px ;
 }
+
 
 
 
